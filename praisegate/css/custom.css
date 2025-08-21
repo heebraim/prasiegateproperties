@@ -34,16 +34,16 @@
 /************************************/
 
  :root {
-	--primary-color			: green;   /* Navy Blue from logo */
+	--primary-color			: #7CB342;   /* Navy Blue from logo */
 	--secondary-color		: #7CB342;   /* Green from logo */
 	--text-color			: black;   /* Neutral black tone */
 	--white-color			: #ffffff;   /* White */
 	--dark-color			: #000000;   /* Black stroke in logo */
 	--accent-color			: #F1C40F;   /* Yellow from logo */
 	--divider-color			: #DDDBDB;   /* Neutral divider */
-	--gray-divider			: #DDDBDB;   /* Same gray for consistency */
-	--overlay-color			: #E0312Caa;/* Semi-transparent navy */
-	--dark-overlay-color	: green; /* Stronger semi-transparent navy */
+	--gray-divider			: #5ca01c;   /* Same gray for consistency */
+	/* --overlay-color			:; */
+	/* --dark-overlay-color	:; Stronger semi-transparent navy */
 	--error-color			: #E0312C;   /* Red from logo */
 	--accent-font			: 'Sora', sans-serif;
 	--default-font			: 'Inter', sans-serif;
@@ -363,7 +363,9 @@ select.form-control{
 	margin-bottom: 15px;
 	z-index: 2;
 }
-
+.section-title h3:before {
+    filter: invert(78%) sepia(92%) saturate(457%) hue-rotate(2deg);
+}
 .section-title h3:before{
 	content: '';
 	display: block;
