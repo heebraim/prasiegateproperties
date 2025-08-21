@@ -121,8 +121,9 @@ a:focus{
 .container-sm,
 .container-xl,
 .container-xxl {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 13px;
+    padding-left: 13px;
+	
 }
 
 .image-anime{
@@ -2892,7 +2893,12 @@ footer.footer{
 	.responsive-menu,
     .navbar-toggle{
         display: block;
+		margin-left: auto;
+		
+		 
     }
+	
+
 
     .section-title{
         margin-bottom: 40px;
